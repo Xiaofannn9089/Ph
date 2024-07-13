@@ -10,15 +10,15 @@ let HANDLER = "false";
 
 module.exports = {
   //For Enabling Commands Like AUTO_STATUS_RED Type true For Disenabling Type false
-  ANTILINK: toBool(process.env.ANTI_LINK) || true,
+  ANTILINK: toBool(process.env.ANTI_LINK) || "kick",
   //_________________________________________________________________________________________________________________________________
   ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
   //_________________________________________________________________________________________________________________________________
-  AUTO_REACT: process.env.AUTO_REACT || 'true',
+  AUTO_REACT: process.env.AUTO_REACT || 'false',
   //_________________________________________________________________________________________________________________________________
-  AUTO_STATUS_READ: process.env.AUTO_STATUS_READ || 'true',
+  AUTO_STATUS_READ: process.env.AUTO_STATUS_READ || 'false',
   //_________________________________________________________________________________________________________________________________
-  AUTO_BIO: process.env.AUTO_BIO || 'true',
+  AUTO_BIO: process.env.AUTO_BIO || 'false',
   //_________________________________________________________________________________________________________________________________
   AUTO_READ_MSG: process.env.AUTO_READ_MSG || 'true',
   //_________________________________________________________________________________________________________________________________
