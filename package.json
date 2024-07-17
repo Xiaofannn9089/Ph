@@ -1,18 +1,18 @@
 {
-  "name": "Phoenix-MD",
+  "name": "venox-MD",
   "description": "A Simple WhatsApp Bot",
   "version": "1.8.0",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "pm2 start . --attach --name Phoenix-MD"
+      "start": "pm2 start . --attach --name venox-MD"
   },
   "keywords": [
    "termux",
    "whatsapp",
    "MD",
-   "Phoenix-MD",
+   "venox-MD",
    "WhatsApp-MD",
    "baileys-md",
    "wa-bot",
@@ -94,10 +94,10 @@
  },
  "repository": {
   "type": "git",
-  "url": "git+https://github.com/AbhishekSuresh2/Phoenix-MD.git"
+  "url":
  },
- "bugs": {
-  "url": "https://github.com/AbhishekSuresh2/Phoenix-MD/issues"
+ "bugs": {https://chat.whatsapp.com/EnoFxYzpnYr1P5TNJtb02K}
+  "url": "https://chat.whatsapp.com/EnoFxYzpnYr1P5TNJtb02K„
  },
- "homepage": "https://github.com/AbhishekSuresh2/Phoenix-MD#readme"
+ "homepage": "https://chat.whatsapp.com/EnoFxYzpnYr1P5TNJtb02K"
 }
