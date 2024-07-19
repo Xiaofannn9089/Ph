@@ -6,27 +6,27 @@ if (fs.existsSync("config.env"))
 const toBool = (x) => x == "true";
 
 DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
-let HANDLER = "false";
+let HANDLER = "true";
 
 module.exports = {
   //For Enabling Commands Like AUTO_STATUS_RED Type true For Disenabling Type false
-  ANTILINK: toBool(process.env.ANTI_LINK) || false,
+  ANTILINK: toBool(process.env.ANTI_LINK) || true,
   //_________________________________________________________________________________________________________________________________
   ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
   //_________________________________________________________________________________________________________________________________
-  AUTO_REACT: process.env.AUTO_REACT || 'false',
+  AUTO_REACT: process.env.AUTO_REACT || 'true',
   //_________________________________________________________________________________________________________________________________
-  AUTO_STATUS_READ: process.env.AUTO_STATUS_READ || 'false',
+  AUTO_STATUS_READ: process.env.AUTO_STATUS_READ || 'true',
   //_________________________________________________________________________________________________________________________________
-  AUTO_BIO: process.env.AUTO_BIO || 'false',
+  AUTO_BIO: process.env.AUTO_BIO || 'true',
   //_________________________________________________________________________________________________________________________________
-  AUTO_READ_MSG: process.env.AUTO_READ_MSG || 'false',
+  AUTO_READ_MSG: process.env.AUTO_READ_MSG || 'true',
   //_________________________________________________________________________________________________________________________________
   AUDIO_DATA: process.env.AUDIO_DATA || "Phoenix-MD;Abhishek Suresh;https://graph.org/file/8976892f2f615077b48cd.jpg",
   //_________________________________________________________________________________________________________________________________
   BRANCH: "main",
   //_________________________________________________________________________________________________________________________________
-  SESSION_ID: process.env.SESSION_ID || "", //Enter Your Session Id Here
+  SESSION_ID: process.env.SESSION_ID || "Phoenix~EdeLbmHy", //Enter Your Session Id Here
   //_________________________________________________________________________________________________________________________________
   SUDO: process.env.SUDO || "919074692450",
   //_________________________________________________________________________________________________________________________________
@@ -64,7 +64,7 @@ module.exports = {
   //_________________________________________________________________________________________________________________________________
   BOT_NAME: process.env.BOT_NAME || "Phoenix-MD",
   //_________________________________________________________________________________________________________________________________
-  WORK_TYPE: process.env.MODE || "public",
+  WORK_TYPE: process.env.MODE || "private",
   //_________________________________________________________________________________________________________________________________
   BASE_URL: "https://abhi-appi-9a0e16f0ca75.herokuapp.com/",
   //_________________________________________________________________________________________________________________________________
